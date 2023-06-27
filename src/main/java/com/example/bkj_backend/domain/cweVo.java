@@ -1,4 +1,4 @@
-package com.example.bjk_backend.domain;
+package com.example.bkj_backend.domain;
 import lombok.Data;
 
 

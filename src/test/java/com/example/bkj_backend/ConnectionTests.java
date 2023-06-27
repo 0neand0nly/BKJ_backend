@@ -1,4 +1,4 @@
-package com.example.bjk_backend;
+package com.example.bkj_backend;
 
 import org.junit.Test;
 import java.sql.Connection;
@@ -24,7 +24,9 @@ public class ConnectionTests {
                             "Jjy10400!")){
             System.out.println(con);
         } catch (Exception e) {
+            e.printStackTrace();  // add this line
             fail(e.getMessage());
         }
     }
+
 }
