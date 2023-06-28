@@ -19,14 +19,15 @@ public class ConnectionTests {
     public void testConnection() {
         try(Connection con =
                     DriverManager.getConnection(
-                            "jdbc:mariadb://svc.sel4.cloudtype.app:30351/Juliet",
-                            "root",
-                            "Jjy10400!")){
+                            "jdbc:mysql://203.252.112.23:3306/juliet", // Corrected Connection String
+                            "jy8457",
+                            "isel2023")){
             System.out.println(con);
         } catch (Exception e) {
             e.printStackTrace();  // add this line
             fail(e.getMessage());
         }
     }
+
 
 }

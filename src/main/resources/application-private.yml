@@ -1,0 +1,12 @@
+#DB info
+spring:
+  datasource:
+    driver-class-name : org.mariadb.jdbc.Driver
+    url : jdbc:mariadb://svc.sel4.cloudtype.app:30351/Juliet
+    username : root
+    password : Jjy10400!
+
+mybatis:
+  type-aliases-package: com.example.bkj_backend.mapper
+  mapper-locations : mapper/*.xml
+
